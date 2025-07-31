@@ -1,0 +1,20 @@
+/* Main Styles */
+@import url('../navbar2.css');
+@import url('./heroSmart.css');
+@import url('./first.css');
+@import url('../weProvide.css');
+@import url('../smartServices.css');
+@import url('../bottomSection.css');
+
+body {
+    margin: 0;
+    padding: 0 0px;
+    font-family: "Poppins", sans-serif;
+    background-color: #F0F0F0;
+
+}
+
+
+.section-spacing {
+    margin-bottom: 50px;
+  }

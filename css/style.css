@@ -1,0 +1,24 @@
+/* Main Styles */
+@import url('navbar2.css');
+@import url('hero.css');
+@import url('aboutus.css');
+@import url('services.css');
+@import url('partners.css');
+@import url('weProvide.css');
+@import url('actualite.css');
+@import url('bottomSection.css');
+body {
+    margin: 0;
+    padding: 0 0px;
+    font-family: "Poppins", sans-serif;
+    background-color: #F0F0F0;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section-spacing {
+    margin-bottom: 50px;
+  }

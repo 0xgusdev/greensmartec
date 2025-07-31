@@ -1,0 +1,59 @@
+.weProvide{
+    padding:20px 20px;
+  
+    max-width: 1200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    align-items: center;
+    gap:10px;
+    background-color: white;
+    padding-bottom: 30px;
+
+    border-radius: 15px;
+}
+.weProvide .head{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+.weProvide .head img{
+    width: 37px;
+}
+.weProvide .provRec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#008D91;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
+    width: 160px;
+}
+.weProvide .recHolder{
+    display: flex;
+    gap:40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+    .weProvide{
+     
+        margin-left:20px;
+      
+        margin-right: 20px;
+       
+    }
+    .weProvide .provRec{
+       
+        width: 135px;
+    }
+}

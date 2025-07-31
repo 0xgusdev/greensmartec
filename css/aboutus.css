@@ -1,0 +1,206 @@
+.aboutUs{
+    padding:20px 20px;
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    gap:0px;
+}
+.show::before {
+    content: "";
+    display: inline-block;
+    width:23px; 
+    vertical-align: top; 
+    height: 23px;
+    background-image: url('../images/orangecheck.png');
+    background-size: cover;
+    margin-right: 5px;
+  }
+  .aboutUs .leftTab{
+    display: flex;
+    
+    flex:2;
+    flex-direction: column;
+   
+    
+  }
+ .show{
+    margin:5px 0px;
+ }
+ .cards{
+  
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+ }
+ .card{
+
+  
+    display: flex;
+    align-items: center;
+  
+    max-width: 340px;;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+ }
+ .card .number{
+    color:#FE914C;
+    font-weight: bold;
+    font-size:28px;
+    margin-right: 8px;
+    vertical-align: baseline;
+   
+ 
+ }
+ .card .label{
+    font-size: 16px;
+   
+    vertical-align: text-bottom;
+
+ }
+ .card img{
+    width: 37px;
+  
+    margin-right: 15px;
+ }
+
+ .aboutUs .rightTab{
+     position: relative;
+    padding-top: 30px;
+    flex:2;
+   height:0px;
+  
+ }
+
+ 
+ .rec img{
+    width:80% ;
+ }
+ .rec p{
+    font-weight:300;
+    width: 90%;
+    margin: 0px;
+   
+ }
+ .rec{
+ 
+    display:flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    /*padding: 14px 0px;*/
+    color:white;
+    max-width: 360px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: #164243;
+ }
+ .rec .bg1{
+    width: 93%;
+    height: 290px; /* Set a height (required for visibility) */
+    background-image: url('../images/logo.jpg');
+    background-size: cover; /* Ensures image covers the div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    border-radius: 15px;
+ }
+ .rec .bg2{
+    width: 93%;
+    height: 290px; /* Set a height (required for visibility) */
+    background-image: url('../images/bgElec.jpg');
+    background-size: cover; /* Ensures image covers the div */
+    background-position: right; /* Centers the image */
+    background-repeat: no-repeat;
+    border-radius: 15px;
+ }
+
+ .box2{
+    position:relative;
+    bottom: 190px;
+    left:210px;
+  
+ }
+ .box2::before {
+   content: "";
+   position: absolute;
+   top: -18px;
+   left: -18px;
+   right: -18px;
+   bottom: -18px;
+   background-image: url('../images/dots.png');
+   background-size: 130%;
+   background-repeat: repeat;
+   background-position: center;
+   z-index: -1;
+ }
+ .dots{
+    width: 500px;
+    position: absolute;
+    right:18%;
+    transform: translateY(155px);
+  z-index:-4;
+ }
+ .hide{
+   display: none;
+ }
+ @media (max-width: 768px) {
+   .rec{
+      margin-left:0%;
+    min-width: 50%;
+   
+
+
+  
+  
+
+
+      
+    
+      height: 350px;
+
+   }
+   .hide{
+      display: block;
+    }
+   .aboutUs{
+     
+      margin-bottom: 0px;;
+  }
+    .dots{
+        width: 100%;
+     
+        right:0px;
+        transform: translateY(300px);
+  
+     }
+    .aboutUs{
+        flex-direction: column;
+        gap:10px;
+    }
+
+    
+     .box2{
+      position:static;
+
+    
+   } .box2::before {
+      content: "";
+      position: absolute;
+      top: -30px;
+      left: -30px;
+      right: -30px;
+      bottom: -30px;
+      background-image: url('../images/dots.png');
+      background-size: 100%;
+      background-repeat: repeat;
+      background-position: center;
+      z-index: -1;
+    }
+     .aboutUs .rightTab{
+ 
+    
+     }
+ }

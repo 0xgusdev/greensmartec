@@ -1,0 +1,144 @@
+.Actualite{
+    padding:20px 20px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+
+}
+.ASidesHolder{
+    display: flex;
+    flex-direction: row;
+    gap:130px;
+}
+.ActLeftTab{
+    flex:1.5;
+}
+.ActRightTab{
+    padding:13px;
+    align-self: flex-start;
+    
+    flex:1;
+    border-radius: 15px;
+    color:white;
+    background-color: #164243;
+}
+.ActRec{
+    padding:10px 20px;
+    border-radius: 15px;
+    background-color: #164243;
+    color:white;
+  
+}
+.Actualite .smallRecHolder {
+    position: relative;
+    margin-top: 45px;
+    display: flex;
+        height: 400px;
+    gap: 30px;
+    z-index: 1;
+  }
+  
+  .Actualite .smallRecHolder::before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: -18px;
+    right: -18px;
+    bottom: -18px;
+    background-image: url('../images/dots.png');
+    background-size: 120%;
+    background-repeat: repeat;
+    background-position: center;
+    z-index: -1;
+  }
+.Actualite .ActSmallRec{
+    border-radius: 15px;
+    background-color: #164243;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+
+} 
+.ActSmallRec .ActImgBg{
+    border-radius: 15px;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+    
+}
+.ActRightBgHolder{
+    background-image: url('../images/bgElec.jpg');
+    width: 100%;
+   
+    border-radius: 15px;
+    height: 500px;    background-position: right;
+    background-size: cover;
+}
+.ActImg{
+    width: 100%;
+}
+@media (max-width: 1200px) {
+
+    .ASidesHolder{
+        display: flex;
+        gap:40px;
+        flex-direction: column;
+    }
+    .Actualite{
+    
+        padding-bottom: 0px;
+    }
+   
+    .Actualite .smallRecHolder {
+        position: relative;
+        margin-top: 45px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        z-index: 1;
+      }
+    .ActRightTab{
+        align-self: stretch;
+    }
+      
+}
+
+@media (max-width: 768px) {
+    .ActRightTab{
+        align-self: stretch;
+    }
+    .ASidesHolder{
+        display: flex;
+        gap:40px;
+        flex-direction: column;
+    }
+    .Actualite{
+        padding-bottom: 0px;
+    }
+   
+    .Actualite .smallRecHolder {
+        position: relative;
+        margin-top: 45px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        z-index: 1;
+      }
+      .Actualite .smallRecHolder {
+        position: relative;
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+       
+        height: 650px;
+        gap: 30px;
+        z-index: 1;
+      }
+
+      
+}

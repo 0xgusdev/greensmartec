@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home</title>
+    <link rel="stylesheet" href="css/smartHome/smartHome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">
+                <img src="./images/logo.jpg" alt="Logo" class="logo-image">
+                <span>G-SMARTec</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="smartHome.html">SMARTHOME</a></li>
+                <li><a href="electricity.html">ELECTRICITY</a></li>
+          
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="burger-menu" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-content">
+            <div class="text-content">
+                <h2>Smart Home Security</h2>
+                <p>Controlez votre maison depuis<br>n'importe où dans le monde</p>
+                <button class="cta-button"  onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">CONTACTER NOUS</button>
+            </div>
+            <!--div class="hero-image">
+                <img src="images/foreground-image.png" alt="Security System">
+            </div-->
+        </div>
+    </section>
+    <section class="section-spacing"></section>
+    <section class="first">
+        <div class="FleftTab">
+            <h1 style="font-weight: 550;">Maison Intelligente & Domotique</h1>
+        <p>Domotique et maison intellegent G-Smartec est expert des
+            environnements connectés
+            appliqués à la gestion technique des bâtiments 
+        <br> Pour les particuliers, nous mettons en œuvre des solutions liées à la maison connectée : ouverture automatique de portails, commande d'éclairage et de chauffage par smartphone ou commande vocale, commande des volets roulants à distance, interphone / visiophone connecté,
+        etc...</p>
+       
+  
+        </div>
+        <div class="FrightTab">
+            <img src="./images/smartHome.jpg" />
+        </div>
+    </section>
+    <section class="section-spacing"></section>
+    <!--section class="first">
+        <div class="FleftTab">
+            <h1 style="font-weight: 550;">Maison Intelligente & Domotique</h1>
+        <p>Domotique et maison intellegent G-Smartec est expert des
+            environnements connectés
+            appliqués à la gestion technique des bâtiments 
+        <br> Pour les particuliers, nous mettons en œuvre des solutions liées à la maison connectée : ouverture automatique de portails, commande d'éclairage et de chauffage par smartphone ou commande vocale, commande des volets roulants à distance, interphone / visiophone connecté,
+        etc...</p>
+        <p>Domotique et maison intellegent G-Smartec est expert des
+            environnements connectés
+            appliqués à la gestion technique des bâtiments 
+        <br> Pour les particuliers, nous mettons en œuvre des solutions liées à la maison connectée : ouverture automatique de portails, commande d'éclairage et de chauffage par smartphone ou commande vocale, commande des volets roulants à distance, interphone / visiophone connecté,
+        etc...</p>
+          
+        </div>
+        <div class="FrightTab">
+            <img style="width:90% !important;" src="./images/smartHome2.jpg" />
+        </div>
+    </section-->
+    <section class="section-spacing"></section>
+
+    <setion class="weProvide">
+        <div class="weProvideInside">  <div class="head"><img src="./images/orangecheck.png"/> <h3 style="font-weight: 550;">Nous Offrons</h3></div>
+    
+        <div class="recHolder">
+            <div class="provRec">
+                <img src="./images/cameraIcon2.png"/>
+                <p style="font-weight: 550;">CCTV</p>
+            </div>
+            <div class="provRec">
+                <img src="./images/alarm.png"/>
+                <p style="font-weight: 550;">Alarm</p>
+            </div>
+            <div class="provRec">
+                <img src="./images/domotiqueIcon.png"/>
+                <p style="font-weight: 550;">Domotique</p>
+            </div>
+            <div class="provRec">
+                <img src="./images/phone.png"/>
+                <p style="font-weight: 550;">Visiophone</p>
+            </div>
+            <div class="provRec">
+                <img src="./images/sphere.png"/>
+                <p style="font-weight: 550;">Maintenance</p>
+            </div>
+        </div></div>
+      
+    
+    </setion>
+    <section class="section-spacing"></section>
+    
+    <section class="smartServices">
+        <!-- Overlay -->
+<div id="overlay" class="overlay" onclick="closePopup()"></div>
+
+<!-- Popups -->
+<div id="popup1" class="popup">
+    <div class="popContent">
+        <div class="popUpHead"> <img class="ico" src="./images/cam.png"/>
+            <h2 style="margin:0px;">CCTV</h2>
+            <div class="quit" onclick="closePopup()" style="background-image:url('../images/x.png');"></div>
+
+</div>      
+<div class="popUpBoxes">
+    <div  class="imgShdiv">    <img width="100%" class="showImage" src="./images/cameraView.jpg"/>
+    </div>
+    <p  class="popText">   Nous vous proposons des systèmes de surveillance CCTV, incluant l'étude, la fourniture et la
+        réalisation, pour assurer la sécurité de votre domicile ou entreprise. Ces solutions offrent un accès à distance et une surveillance optimisée.</p>
+    </p>
+
+</div>
+
+   </div>
+
+
+
+</div>
+<div id="popup2" class="popup"> 
+     <div class="popContent">
+    <div class="popUpHead"> <img class="ico" src="./images/visiophoneIcon.png"/>
+        <h2 style="margin:0px;">Visiophone</h2>
+        <div class="quit" onclick="closePopup()" style="background-image:url('../images/x.png');"></div>
+
+</div>      
+<div class="popUpBoxes">
+<div  class="imgShdiv">    <img width="100%" class="showImage" src="./images/visiophone2.jpg"/>
+</div>
+<p  class="popText"> 
+    Nous installons des visiophones modernes et performants pour renforcer la sécurité et le confort de vos entrées, tout en utilisant des camera haute définition, un audio de qualité, un control à distance et un système d'enregistrement. Contactez-nous pour une protection accrue et une gestion facile de vos accès.</p>
+
+</div>
+
+</div>
+</div>
+<div id="popup3" class="popup">
+      <div class="popContent">
+    <div class="popUpHead"> <img class="ico" src="./images/alarm.png"/>
+        <h2 style="margin:0px;">System Securitè</h2>
+        <div class="quit" onclick="closePopup()" style="background-image:url('../images/x.png');"></div>
+
+</div>      
+<div class="popUpBoxes">
+<div  class="imgShdiv">    <img width="100%" class="showImage" src="./images/antiIntrusion.jpg"/>
+</div>
+<p  class="popText"> 
+    
+Nous concevons et installons des systèmes d'alarme haute performance, adaptés à vos besoins spécifiques en matière de sécurité, disponibles en versions filaire et sans fil. Nous proposons également des alarmes anti-intrusion, des alarmes anti-incendie
+</p>
+</div>
+
+</div></div>
+<div id="popup4" class="popup">
+    <div class="popContent">
+        <div class="popUpHead"> <img class="ico" src="./images/domotiqueIcon.png"/>
+            <h2 style="margin:0px;">Domotique</h2>
+            <div class="quit" onclick="closePopup()" style="background-image:url('../images/x.png');"></div>
+    
+    </div>      
+    <div class="popUpBoxes">
+    <div  class="imgShdiv">    <img width="100%" class="showImage" src="./images/smartHomePad.jpg"/>
+    </div>
+    <p  class="popText"> 
+
+        Nous vous proposons des solutions domotiques sur mesure pour rendre votre maison plus intelligente, confortable, sécurisée et économe en énergie. Grâce à nos technologies
+        innovantes, vous pouvez automatiser et contrôler facilement l'ensemble des équipements de votre domicile ou de votre entreprise tel que :
+          
+    </div>
+    
+
+    <div class="popUpBoxes">
+
+        </div>
+    
+            <ul style="margin:0px;padding:0px 15px;" class="popText" style="list-style-type:circle;">
+                <li><b>Contrôle de l'éclairage :</b> Allumez, éteignez et ajustez l'intensité lumineuse d'un simple geste ou via votre smartphone.</li>
+                <li><b>Gestion de l'énergie :</b> Contrôlez intelligemment le chauffage et la climatisation pour économiser de l'énergie et améliorer votre confort.</li>
+                <li><b>Sécurité connectée :</b> Profitez de systèmes de surveillance avancés, de caméras intelligentes, d'alarmes optimisées et de serrures électroniques pour une tranquillité d'esprit totale.</li>
+                <li><b>Contrôle des appareils électriques :</b> Activez ou programmez vos équipements à distance selon vos besoins.</li>
+                <li><b>Intégration intelligente : </b> Gérez tout votre système domotique depuis une seule application mobile.</li>
+                <li>Et bien plus encore. Contactez-nous pour transformer votre habitation ou votre entreprise en un lieu à la fois intelligent, sécurisé et confortable." </li>
+              </ul>  
+       
+            
+      
+        </div>
+ 
+    </div>
+
+</div>
+
+        <h1 style="font-weight: 550;margin:0px;">Nos Services</h1>
+        <p style="margin:0px;margin-bottom: 20px;max-width: 600px;"></p>
+        <div class="holders">
+            <div class="boxShowcase">
+                <img class="ico" src="./images/cam.png"/>
+                <h2 style="margin:0px;">CCTV</h2>
+                <p class="texBox" >
+               </p>
+                <br>
+                <img width="100%" class="showImage" src="./images/cctvShowcase.jpg"/>
+                
+                <div  onclick="openPopup(1)" class="startHere">
+                    <p>Découvrir</p>
+                    <img src="./images/rightArrow.png">
+                </div>
+            </div>
+            <div class="boxShowcase">
+                <img class="ico" src="./images/visiophoneIcon.png"/>
+                <h2 style="margin:0px;">Visiophone</h2>
+                <p class="texBox" ></p>
+                <br>
+                <img width="100%"  class="showImage" src="./images/visiophone.jpg"/>
+                
+                <div onclick="openPopup(2)" class="startHere">
+                    <p>Découvrir</p>
+                    <img src="./images/rightArrow.png">
+                </div>
+            </div>
+            <div class="boxShowcase">
+                <img class="ico" src="./images/alarm.png"/>
+                <h2 style="margin:0px;">System Securitè</h2>
+                <p class="texBox" ></p>
+                <br>
+                <img width="100%" class="showImage" src="./images/alarm.jpg"/>
+                
+                <div onclick="openPopup(3)" class="startHere">
+                    <p>Découvrir</p>
+                    <img src="./images/rightArrow.png">
+                </div>
+            </div>
+            <div class="boxShowcase">
+                <img class="ico" src="./images/domotiqueIcon.png"/>
+                <h2 style="margin:0px;">Domotique</h2>
+                <p class="texBox" ></p>
+                <br>
+                <img width="100%" class="showImage" src="./images/smartHomePad.jpg"/>
+                
+                <div onclick="openPopup(4)" class="startHere">
+                    <p>Découvrir</p>
+                    <img src="./images/rightArrow.png">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="section-spacing"></section>
+
+
+    <section class="bottomSection"  id="contact">
+      
+        <div class="overlayBlack"></div>
+        <div class="bottomContent" >
+            <img width="150px" style="align-self: center;" src="./images/logo.png"/>
+            <p style="font-weight: 550;">Localisation</p>
+            <div class="Location"></div>
+            <div><p><span style="font-weight: 550;">Adresse:</span>bloc 76, LOCAL 01/02, ilot 11 AADL2500 ain El-beida, Es Sénia, Oran  Algérie</p>
+                <p ><span style="font-weight: 550;">Tel:</span>+213553996912</p>
+                <p><span style="font-weight: 550;">Mail:</span><a style="color:white"href="mailto:green.smartec@gmail.com" target="_blank">green.smartec@gmail.com</a></p>
+
+           
+        </div>
+        <br>
+       
+        <div class="lastBtm"> <div class="socialMedia">
+            <!--div class="circleMedia" style="background-image:url('../images/Instagram.png');"></div-->
+            <div class="circleMedia" style="background-image:url('../images/facebook.png');"  onclick="window.open('https://www.facebook.com/profile.php?id=61558063397644', '_blank')"></div>
+           <div class="circleMedia" onclick="window.open('mailto:green.smartec@gmail.com', '_blank');" style="background-image:url('../images/email.png');"></div>
+
+        </div>
+        <p style="align-self: center;margin-top: auto;">©2025 G-Smartec.All copyrights reserved</p></div>
+    </section>
+    <script>
+        function openPopup(id) {
+          document.getElementById('overlay').style.display = 'block';
+          document.getElementById('popup' + id).style.display = 'block';
+        }
+      
+        function closePopup() {
+          document.getElementById('overlay').style.display = 'none';
+          for (let i = 1; i <= 4; i++) {
+            let el = document.getElementById('popup' + i);
+            if (el) el.style.display = 'none';
+          }
+        }
+      </script>
+    <script src="js/script.js"></script>
+</body>
+</html>

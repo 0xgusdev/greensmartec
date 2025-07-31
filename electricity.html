@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home</title>
+    <link rel="stylesheet" href="css/smartHome/smartHome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="logo">
+                <img src="./images/logo.jpg" alt="Logo" class="logo-image">
+                <span>G-SMARTec</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="smartHome.html">SMARTHOME</a></li>
+                <li><a href="#">ELECTRICITY</a></li>
+              
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="burger-menu" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('./images/bgElec.jpg') center/cover no-repeat">
+        <div class="hero-content" >
+            <div class="text-content">
+                <h2>GREENSMARTEC</h2>
+                <p>Expert en études, installations et maintenance électrique MT/BT pour professionnels et industriels.</p>
+                <button class="cta-button"  onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">CONTACTER NOUS</button>
+            </div>
+            <!--div class="hero-image">
+                <img src="images/foreground-image.png" alt="Security System">
+            </div-->
+        </div>
+    </section>
+    <section class="section-spacing"></section>
+    <section class="first">
+        <div class="FleftTab">
+            <h1 style="font-weight: 550;">Expert en Solutions Électriques MT/BT pour Professionnels et Industriels</h1>
+        <p>
+            GREEN SMARTEC est une entreprise reconnue pour son expertise dans les études, installations et la maintenance électrique, que ce soit en moyenne tension (MT) ou en basse tension (BT). Nous intervenons auprès des professionnels et des industriels pour répondre à leurs besoins en matière d'étude, d'installation et de sécurisation de leurs réseaux électriques.</p>
+       
+          
+        </div>
+        <div class="FrightTab">
+            <img src="./images/panel.jpg" />
+        </div>
+    </section>
+    <section class="first">
+        <div class="FleftTab">
+           
+            <ul style="margin:0px;padding:0px 15px;"  style="list-style-type:circle;">
+                <span style="font-weight:550;">Nos domaines d'intervention :</span>
+                <li>Construction les postes électriques</li>
+                <li>Installation et raccordement de postes MT</li>
+                <li>Installation des équipements dans les postes électriques</li>
+                <li>Câblage et mise en service de réseaux MT (aérien et souterrain) Diagnostic et mise aux normes des installations existantes</li>
+                <li>Câblage et distribution électrique BT</li>
+                <li>Mise en place de tableaux électriques et de systèmes de protection Rénovation et modernisation d'installations BT</li>
+                <br>
+        
+              </ul>  
+
+
+
+
+
+      
+          
+        </div>
+        <div class="FrightTab">
+            <ul style="margin:0px;padding:0px 15px;"  style="list-style-type:circle;">
+                <span style="font-weight:550;"> Nos prestations incluent :</span>
+               <li><b>Respect des normes :</b> Conformité aux normes en vigueur (NF C 13-100 pour la MT, NF C 15-100 pour la BT).</li>
+                <li><b>Qualité et sécurité :</b> Utilisation de matériaux certifiés et respect des protocoles de sécurité.</li>
+                <li><b>Expertise technique :</b> Équipes qualifiées et formées aux dernières technologies. Réactivité : Interventions rapides et respect des délais.</li>
+                <br>
+        
+              </ul>  
+          
+        </div>
+    </section>
+    <section class="section-spacing"></section>
+    <!--section class="first">
+        <div class="FleftTab">
+            <h1 style="font-weight: 550;">Maison Intelligente & Domotique</h1>
+        <p>Domotique et maison intellegent G-Smartec est expert des
+            environnements connectés
+            appliqués à la gestion technique des bâtiments 
+        <br> Pour les particuliers, nous mettons en œuvre des solutions liées à la maison connectée : ouverture automatique de portails, commande d'éclairage et de chauffage par smartphone ou commande vocale, commande des volets roulants à distance, interphone / visiophone connecté,
+        etc...</p>
+        <p>Domotique et maison intellegent G-Smartec est expert des
+            environnements connectés
+            appliqués à la gestion technique des bâtiments 
+        <br> Pour les particuliers, nous mettons en œuvre des solutions liées à la maison connectée : ouverture automatique de portails, commande d'éclairage et de chauffage par smartphone ou commande vocale, commande des volets roulants à distance, interphone / visiophone connecté,
+        etc...</p>
+          
+        </div>
+        <div class="FrightTab">
+            <img style="width:90% !important;" src="./images/smartHome2.jpg" />
+        </div>
+    </section-->
+    <section class="section-spacing"></section>
+
+    <setion class="weProvide">
+        <div class="weProvideInside">  <div class="head"><img src="./images/orangecheck.png"/> <h3 style="font-weight: 550;">Nous Offrons</h3></div>
+    
+        <div class="recHolder">
+            <div class="provRec">
+                <img src="./images/etude.png"/>
+                <p style="font-weight: 550;">Etude&Conception</p>
+            </div>
+            <div class="provRec">
+                <img src="./images/sphere.png"/>
+                <p style="font-weight: 550;">Conseil / Devis</p>
+            </div>
+            <div class="provRec">
+                <img src="./images/mechanic.png"/>
+                <p style="font-weight: 550;">Maintenance</p>
+            </div>
+            <div class="provRec">
+                <img src="./images/idea.png"/>
+                <p style="font-weight: 550;">Solutions</p>
+            </div>
+            <div class="provRec">
+                <img src="./images/certified.png"/>
+                <p style="font-weight: 550;">Quality</p>
+            </div>
+        </div></div>
+      
+    
+    </setion>
+    <section class="section-spacing"></section>
+    
+    <section class="smartServices">
+        <!-- Overlay -->
+<div id="overlay" class="overlay" onclick="closePopup()"></div>
+
+<!-- Popups -->
+<div id="popup1" class="popup">
+    <div class="popContent">
+        <div class="popUpHead"> <img class="ico" src="./images/electrical.png"/>
+            <h2 style="margin:0px;">Eelectricity de batiment
+            </h2>
+            <div class="quit" onclick="closePopup()" style="background-image:url('../images/x.png');"></div>
+
+</div>      
+<div class="popUpBoxes">
+    <div  class="imgShdiv">    <img width="100%" class="showImage" src="./images/electricity1.jpg"/>
+    </div>
+    <p  class="popText"> Nous mettons à votre disposition notre expertise en électricité pour tous types de bâtiments : résidentiels, commerciaux et industriels. Nous vous offrons des solutions sur mesure, alliant performance, sécurité et conformité aux normes en vigueur.</p>
+    </p>
+
+</div>
+<div class="popUpBoxes" >
+  
+    <ul style="margin:0px;padding:0px 15px;" class="popText" style="list-style-type:circle;">
+        <span style="font-weight:550;">  Nos prestations incluent :</span>
+        <li><b>Installation électrique :</b> Conception et réalisation d'installations électriques adaptées à vos besoins, garantissant efficacité et sécurité.</li>
+        <li><b>Rénovation et mise aux normes :</b> Mise à jour des systèmes électriques pour optimiser la performance énergétique et assurer la sécurité et Conformité aux normes en vigueur (NF C 15-100)</li>
+        <li><b>Maintenance et dépannage :</b> Services de maintenance préventive et interventions rapides pour assurer le bon fonctionnement de vos installations.</li>
+        <br>
+        Nous nous engageons à fournir des solutions électriques fiables et durables, afin d'assurer le bon fonctionnement de vos installations dans le respect des normes les plus strictes.
+
+      </ul>  
+    </div>
+    <div class="popUpBoxes">
+        <div  class="imgShdiv">    <img width="100%" class="showImage" src="./images/batiment1.jpg"/>
+        </div>
+        <div  class="imgShdiv">    <img width="100%" class="showImage" src="./images/batiment2.jpg"/>
+        </div>
+</div>
+
+
+</div>
+   </div>
+
+
+
+</div>
+<div id="popup2" class="popup"> 
+     <div class="popContent">
+    <div class="popUpHead"> <img class="ico" src="./images/armoirIcon.png"/>
+        <h2 style="margin:0px;">Armoir electrique</h2>
+        <div class="quit" onclick="closePopup()" style="background-image:url('../images/x.png');"></div>
+
+</div>      
+<div class="popUpBoxes">
+<div  class="imgShdiv">    <img width="100%" class="showImage" src="./images/armoirElectrique.jpg"/>
+</div>
+<p  class="popText"> 
+
+    Chez GREEN SMARTEC, nous proposons des services spécialisés dans la conception, l'installation et la maintenance d'armoires électriques sur mesure, adaptées aux besoins spécifiques de chaque projet industriel, commercial ou résidentiel. Grâce à notre expertise technique, nous assurons la fabrication et l'installation d'armoires électriques conformes aux normes de sécurité les plus strictes, tout en garantissant une gestion optimale de vos installations.
+</div>
+<div class="popUpBoxes">
+    <ul style="margin:0px;padding:0px 15px;" class="popText" style="list-style-type:circle;">
+        <span style="font-weight:550;">  Types d'Armoires Électriques que Nous Installons :</span>
+        <li><b>TGBT (Tableau Général Basse Tension):</b> Ce type d'armoire est essentiel pour la distribution d'énergie dans les bâtiments industriels, commerciaux et les grandes infrastructures. Le TGBT permet de centraliser et de distribuer l'électricité basse tension vers différents circuits. Nous assurons une installation conforme aux normes de sécurité et de performance.</li>
+        <li><b>AGBT (Armoires Générales Basse Tension):</b> Semblables aux TGBT, les AGBT sont dédiées à la gestion de la distribution de l'énergie électrique à basse tension, mais elles sont spécifiquement utilisées dans des installations plus petites ou moins complexes. Nous vous proposons des solutions sur mesure pour optimiser l'efficience et la sécurité de vos installations électriques.</li>
+        <li><b>CLPG (Cellule de Protection Générale) :</b> Ces armoires sont utilisées pour la protection et le contrôle des circuits électriques dans les installations industrielles et commerciales. Elles intègrent des dispositifs de protection contre les courts-circuits, les surcharges, et assurent un contrôle optimal de l'énergie électrique distribuée.</li>
+        <br>
+        <b>Nos services incluent également :</b>
+        <li><b>Conception personnalisée : </b>Nous développons des armoires électriques sur mesure en fonction des spécifications techniques de votre projet.</li>
+        <li><b>Câblage et intégration:</b> Nous assurons un câblage soigné et l'intégration des équipements de contrôle pour garantir un fonctionnement optimal.</li>
+        <li><b>Tests et mise en service :</b> Chaque armoire est testée pour assurer sa conformité aux normes de sécurité et son bon fonctionnement avant sa mise en service.</li>
+        <li><b>Maintenance et dépannage :</b> Nous proposons un service de maintenance préventive et corrective pour garantir la pérennité de vos installations électriques.
+            Notre objectif est de vous fournir des armoires électriques fiables, sécurisées et conformes aux standards les plus exigeants, afin d'assurer la performance et la longévité de vos équipements électriques.</li>
+      </ul> 
+</div>
+<div class="popUpBoxes">
+    <div class="popUpBoxes">
+        
+        <div  class="imgShdiv">    <img width="100%" class="showImage" src="./images/armoir2.jpg"/>
+
+            
+    </div>
+       
+    <div  class="imgShdiv">    <img width="100%" class="showImage" src="./images/armoir3.jpg"/>
+  
+    </div>
+    <div class="popUpBoxes">
+        
+       
+     <img width="100%" class="showImage" src="./images/armoir4.jpg"/>
+  
+   
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--div id="popup4" class="popup">
+      <div class="popContent">
+    <div class="popUpHead"> <img class="ico" src="./images/zap.png"/>
+        <h2 style="margin:0px;">Groupes électrogènes</h2>
+        <div class="quit" onclick="closePopup()" style="background-image:url('../images/x.png');"></div>
+
+</div>      
+<div class="popUpBoxes">
+
+<p  class="popText"> 
+    
+"Nous proposons des services complets d'installation et de maintenance de groupes électrogènes, adaptés à vos besoins spécifiques. Nous assurons la conception, l'installation et la mise en service de générateurs fiables et performants, qu'ils soient destinés à un usage domestique, industriel ou commercial."</p>
+</div>
+
+</div></di0v-->
+<div id="popup3" class="popup">
+    <div class="popContent">
+        <div class="popUpHead"> <img class="ico" src="./images/sphere.png"/>
+            <h2 style="margin:0px;">Réseau et poste électrique
+                </h2>
+            <div class="quit" onclick="closePopup()" style="background-image:url('../images/x.png');"></div>
+    
+    </div>      
+    <div class="popUpBoxes">
+        <div  class="imgShdiv">   <img width="100%" class="showImage" src="./images/armoir4.jpg"/></div>
+    
+    <p  class="popText"> 
+
+        
+        GREEN SMARTEC est une entreprise reconnue pour son expertise dans les études, installations et la maintenance électrique, que ce soit en moyenne tension (MT) ou en basse tension (BT). Nous intervenons auprès des professionnels et des industriels pour répondre à leurs besoins en matière d'étude, d'installation et de sécurisation de leurs réseaux électriques.
+
+    </div>
+    
+
+    <div class="popUpBoxes">
+        <ul style="margin:0px;padding:0px 15px;" class="popText" style="list-style-type:circle;">
+            <span style="font-weight:550;">Nos domaines d'intervention :</span>
+            <li>Construction les postes électriques</li>
+            <li>Installation et raccordement de postes MT</li>
+            <li>Installation des équipements dans les postes électriques</li>
+            <li>Câblage et mise en service de réseaux MT (aérien et souterrain) Diagnostic et mise aux normes des installations existantes</li>
+            <li>Câblage et distribution électrique BT</li>
+            <li>Mise en place de tableaux électriques et de systèmes de protection Rénovation et modernisation d'installations BT</li>
+            <br>
+    
+          </ul>  
+        </div>
+    
+        
+    </div>
+    <div class="popUpBoxes">
+        <ul style="margin:0px;padding:0px 15px;"  style="list-style-type:circle;">
+            <span style="font-weight:550;"> Nos prestations incluent :</span>
+           <li><b>Respect des normes : </b>Conformité aux normes en vigueur (NF C 13-100 pour la MT, NF C 15-100 pour la BT).</li>
+            <li><b>Qualité et sécurité :</b> Utilisation de matériaux certifiés et respect des protocoles de sécurité.</li>
+            <li><b>Expertise technique :</b> Équipes qualifiées et formées aux dernières technologies. Réactivité : Interventions rapides et respect des délais.</li>
+            <br>
+    
+          </ul>  
+    </div>
+ 
+  
+    </div>
+
+
+
+        <h1 style="font-weight: 550;margin:0px;">Nous Services</h1>
+        <p style="margin:0px;margin-bottom: 20px;max-width: 600px;"></p>
+        <div class="holders">
+            <div class="boxShowcase">
+                <img class="ico" src="./images/electrical.png"/>
+                <h2 style="margin:0px;">Eelectricity de batiment</h2>
+                <p class="texBox" >
+               </p>
+                <br>
+                <img width="100%" class="showImage" src="./images/electricityDeBatiment.jpg"/>
+                
+                <div  onclick="openPopup(1)" class="startHere">
+                    <p>Découvrir</p>
+                    <img src="./images/rightArrow.png">
+                </div>
+            </div>
+            <div class="boxShowcase">
+                <img class="ico" src="./images/armoirIcon.png"/>
+                <h2 style="margin:0px;">Armoir electrique</h2>
+                <p class="texBox" ></p>
+                <br>
+                <img width="100%"  class="showImage" src="./images/armoirElectrique.jpg"/>
+                
+                <div onclick="openPopup(2)" class="startHere">
+                    <p>Découvrir</p>
+                    <img src="./images/rightArrow.png">
+                </div>
+            </div>
+            <!--div class="boxShowcase">
+                <img class="ico" src="./images/zap.png"/>
+                <h2 style="margin:0px;">Groupes électrogènes</h2>
+                <p class="texBox" ></p>
+                <br>
+                <img width="100%" class="showImage" src="./images/groupeElectrogene.jpg"/>
+                
+                <div onclick="openPopup(3)" class="startHere">
+                    <p>Découvrir</p>
+                    <img src="./images/rightArrow.png">
+                </div>
+            </div-->
+            <div class="boxShowcase">
+                <img class="ico" src="./images/domotiqueIcon.png"/>
+                <h2 style="margin:0px;">Réseau et poste électrique</h2>
+                <p class="texBox" ></p>
+                <br>
+                <img width="100%" class="showImage" src="./images/armoir3.jpg"/>
+                
+                <div onclick="openPopup(3)" class="startHere">
+                    <p>Découvrir</p>
+                    <img src="./images/rightArrow.png">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="section-spacing"></section>
+
+
+    <section class="bottomSection"  id="contact">
+      
+        <div class="overlayBlack"></div>
+        <div class="bottomContent" >
+            <img width="150px" style="align-self: center;" src="./images/logo.png"/>
+            <p style="font-weight: 550;">Localisation</p>
+            <div class="Location"></div>
+            <div><p><span style="font-weight: 550;">Adresse:</span>bloc 76, LOCAL 01/02, ilot 11 AADL2500 ain El-beida, Es Sénia, Oran  Algérie</p>
+                <p ><span style="font-weight: 550;">Tel:</span>+213553996912</p>
+                <p><span style="font-weight: 550;">Mail:</span><a style="color:white"href="mailto:green.smartec@gmail.com" target="_blank">green.smartec@gmail.com</a></p>
+
+        </div>
+        <br>
+       
+        <div class="lastBtm"> <div class="socialMedia">
+            <!--div class="circleMedia" style="background-image:url('../images/Instagram.png');"></div-->
+            <div class="circleMedia" style="background-image:url('../images/facebook.png');"  onclick="window.open('https://www.facebook.com/profile.php?id=61558063397644', '_blank')"></div>
+           <div class="circleMedia" onclick="window.open('mailto:green.smartec@gmail.com', '_blank');" style="background-image:url('../images/email.png');"></div>
+
+        </div>
+        <p style="align-self: center;margin-top: auto;">©2025 G-Smartec.All copyrights reserved</p></div>
+    </section>
+    <script>
+        function openPopup(id) {
+          document.getElementById('overlay').style.display = 'block';
+          document.getElementById('popup' + id).style.display = 'block';
+        }
+      
+        function closePopup() {
+          document.getElementById('overlay').style.display = 'none';
+          for (let i = 1; i <= 4; i++) {
+            let el = document.getElementById('popup' + i);
+            if (el) el.style.display = 'none';
+          }
+        }
+      </script>
+    <script src="js/script.js"></script>
+</body>
+</html>

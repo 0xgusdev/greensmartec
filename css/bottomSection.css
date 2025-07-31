@@ -1,0 +1,68 @@
+.bottomSection{
+    height: 780px;
+    width: 100%;
+    background-image: url('../images/bottomBg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 0px;
+   
+}
+.Location{
+    background-image:url('../images/map.png') ;
+    background-position: center;
+    background-size: 160%;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 300px;
+}
+.bottomContent{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    padding: 0px 20px;
+    height: 100%;
+}
+.bottomSection .overlayBlack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8; /* adjust as needed */
+    z-index: 1;
+  }
+  
+  .bottomSection > *:not(.overlayBlack) {
+    position: relative;
+    z-index: 2;
+  }
+
+  .circleMedia{
+    width: 50px;
+    height:50px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 180px;
+    background-color: #008D91;
+  }
+ .socialMedia{
+
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+ }
+ .lastBtm{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+ }

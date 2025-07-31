@@ -1,0 +1,123 @@
+/* Update css/hero.css */
+.hero {
+    position: relative;
+ /* Adjust based on your navbar height */
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('../images/hero-bg.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 40px;
+   
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.text-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.text-content h2 {
+    font-size: 3rem; /* Increased main text size */
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.text-content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #f0f0f0;
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    background-color: #008D91;
+    color: white;
+    border: none;
+    border-radius: 15px; /* More rounded button */
+    cursor: pointer;
+    font-weight: 600 !important;
+    transition: all 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.hero-image {
+    flex: 1;
+    max-width: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        padding: 80px 20px;
+        text-align: left; /* Left alignment */
+    }
+    
+    .hero-content {
+        flex-direction: column;
+        text-align: left; /* Left alignment */
+    }
+    
+    .text-content {
+        margin-bottom: 0;
+        max-width: 100%;
+    }
+    
+    .text-content h2 {
+        font-size: 2.2rem; /* Larger mobile text */
+    }
+    
+    .text-content h3 {
+        font-size: 1.5rem;
+    }
+    
+    .hero-image {
+        display: none; /* Hide image on mobile */
+    }
+    
+    .cta-button {
+        width:90%;
+        max-width: 300px;
+    }
+    .cta-button {
+        padding: 13px 20px;
+        font-size: 0.9rem;
+        background-color: #008D91;
+        color: white;
+        border: none;
+        border-radius: 15px; /* More rounded button */
+        cursor: pointer;
+        font-weight: bold !important;
+        transition: all 0.3s;
+    }
+    
+}
